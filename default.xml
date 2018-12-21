@@ -12,5 +12,5 @@
   <project path="dtc" name="utils/dtc/dtc.git" remote="korg" groups="tools"/>
   <project path="scripts" name="tegra-uboot-flasher-scripts.git" remote="github"/>
   <project path="tegrarcm" name="tegrarcm.git" remote="github" groups="tools"/>
-  <project path="u-boot" name="u-boot.git" remote="sarnold" revision="trimslice" groups="bootloader"/>
+  <project path="u-boot" name="u-boot.git" remote="denx" revision="v2018.11" groups="bootloader"/>
 </manifest>
