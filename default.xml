@@ -3,6 +3,7 @@
   <remote name="denx" fetch="git://git.denx.de/"/>
   <remote name="github" fetch="git://github.com/NVIDIA/"/>
   <remote name="korg" fetch="git://git.kernel.org/pub/scm/"/>
+  <remote name="vct" fetch="git://github.com/VCTLabs/"/>
   <remote name="sarnold" fetch="git://github.com/sarnold/"/>
 
   <default revision="master"/>
@@ -12,5 +13,5 @@
   <project path="dtc" name="utils/dtc/dtc.git" remote="korg" groups="tools"/>
   <project path="scripts" name="tegra-uboot-flasher-scripts.git" remote="github"/>
   <project path="tegrarcm" name="tegrarcm.git" remote="github" groups="tools"/>
-  <project path="u-boot" name="u-boot.git" remote="denx" revision="v2018.11" groups="bootloader"/>
+  <project path="u-boot" name="u-boot.git" remote="vct" revision="v2018.11-tegra" groups="bootloader"/>
 </manifest>
